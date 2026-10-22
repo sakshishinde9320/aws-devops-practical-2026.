@@ -1,0 +1,14 @@
+
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Starting AWS DevOps build"
+  build:
+    commands:
+      - echo "Building website"
+
+artifacts:
+  files:
+    - index.html
